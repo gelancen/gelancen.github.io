@@ -13,17 +13,17 @@ Open a new file
 
 (The posts I created for this blog are based on the group project, Pagode-Europeana China assigned from the course Cultural Policy. The original posted were published on the WeChat Official Account, Pagode, while the blog posts were the adapted version. )
 
-![pagode post](/Users/mac/Desktop/KUL/online publishing/BLOG/pagode post.png)
+![pagode post](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcvxxbwaj30ul0u0wke.jpg)
 
 
 
 Save the markdown files under the _posts folder 
 
-![post folder](/Users/mac/Desktop/KUL/online publishing/BLOG/post folder.png)
+![post folder](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcvyxmshj317o0oa0v2.jpg)
 
-![posts](/Users/mac/Desktop/KUL/online publishing/BLOG/posts.png)
+![posts](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcw000v0j30zu0bimxq.jpg)
 
 Run  `git add . ; git commit -m "update"; git push` 
 
-![posts page](/Users/mac/Desktop/KUL/online publishing/BLOG/posts page.png)
+![posts page](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcw10m90j31qc0u0q8n.jpg)
 

@@ -15,9 +15,9 @@ To install the command line tools to compile native extensions, open a terminal 
 xcode-select --install
 ```
 
-![x-code 1](/Users/mac/Desktop/KUL/online publishing/BLOG/x-code 1.png)
+![x-code 1](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcstdv9lj30vi0k4gn3.jpg)
 
-![x-code](/Users/mac/Desktop/KUL/online publishing/BLOG/x-code.png)
+![x-code](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcspybb9j31k40u0tdy.jpg)
 
 ## 2.2 Install Ruby
 
@@ -38,13 +38,13 @@ There are two main options: 1) install a separate version of Ruby that we contro
 
 To run the latest Ruby version we need to install it through [Homebrew](https://brew.sh/).
 
-![homebrew](/Users/mac/Desktop/KUL/online publishing/BLOG/homebrew.png)
+![homebrew](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcsqt7t1j31k40u0tdy.jpg)
 
 #### 2.2.1.1 Install Homebrew 
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" 
 
-![homebrew installation problem](/Users/mac/Desktop/KUL/online publishing/BLOG/homebrew installation problem.jpeg)
+![homebrew installation problem](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcsp29qdj31k40u0tdy.jpg)
 
 To ensure that /opt/homebrew/bin is in our PATH, we should run 'brew help' and then echo the command above.
 
@@ -64,7 +64,7 @@ echo 'export PATH="/usr/local/opt/ruby/bin:/usr/local/lib/ruby/gems/3.0.0/bin:$P
 
 Relaunch your terminal and check your Ruby setup:
 
-![ruby version](/Users/mac/Desktop/KUL/online publishing/BLOG/ruby version.png)
+![ruby version](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcsrl2hzj30vm0ikdjr.jpg)
 
 ## 2.3 Install Jekyll
 
@@ -80,7 +80,7 @@ gem install --user-install bundler jekyll
 
 Get your Ruby version:
 
-![ruby version](/Users/mac/Desktop/KUL/online publishing/BLOG/ruby version.png)
+![ruby version](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcsr53afj30vm0ikdjr.jpg)
 
 Append your path file with the following, replacing the `X.X` with the first two digits of your Ruby version:
 
@@ -95,7 +95,7 @@ echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bash_profile
 
 Type  [http://localhost:4000](http://localhost:4000/) in the browser
 
-![initial jekyll page](/Users/mac/Desktop/KUL/online publishing/BLOG/initial jekyll page.png)
+![initial jekyll page](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcsryotmj30sw04074y.jpg)
 
 
 

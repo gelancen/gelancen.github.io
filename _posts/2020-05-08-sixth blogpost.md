@@ -13,7 +13,7 @@ There are some prerequistites we need to follow along.
 
 - A [GitHub](https://github.com/) account.
 
-  ![github account](/Users/mac/Desktop/KUL/online publishing/BLOG/github account.png)
+  ![github account](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwstbdyj610k0ne0v602.jpg)
 
 - A working Ruby development environment with Homebrew, chruby, ruby-install, Bundler, Git and the GitHub CLI. 
 
@@ -44,7 +44,7 @@ There are some prerequistites we need to follow along.
   touch ~/.gitignore_global
   ```
 
-  ![git config](/Users/mac/Desktop/KUL/online publishing/BLOG/git config.png)
+  ![git config](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwu60xhj60vm06g0u702.jpg)
 
   And then open it:
 
@@ -72,7 +72,7 @@ There are some prerequistites we need to follow along.
   Thumbs.db
   ```
 
-  ![gitignore](/Users/mac/Desktop/KUL/online publishing/BLOG/gitignore.png)
+  ![gitignore](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwsetknj311q0n8q43.jpg)
 
   
 
@@ -105,7 +105,7 @@ Then, we need to create a new folder called `jekyll-github-actions` and initiali
 git init jekyll-github-actions && cd jekyll-github-actions
 ```
 
-![ruby 2.7.2](/Users/mac/Desktop/KUL/online publishing/BLOG/ruby 2.7.2.png)
+![ruby 2.7.2.jepg](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcxzdtxjj310k0b0wmw.jpg)
 
 To make sure we're using Ruby 2.7.2, we'll switch to it:
 
@@ -120,7 +120,7 @@ gem install bundler jekyll
 jekyll new .
 ```
 
-![gem install bundler jekyll](/Users/mac/Desktop/KUL/online publishing/BLOG/gem install bundler jekyll.png)
+![gem install bundler jekyll](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwxqleuj30us0u0ag1.jpg)
 
 Next, we'll add a `.ruby-version` file so that the correct Ruby version is used whenever we `cd` into our `jekyll-github-actions` directory:
 
@@ -132,7 +132,7 @@ echo 'ruby-2.7.2' >> .ruby-version
 
 Open the jekyll-github-actions folder
 
-![gemfile folder](/Users/mac/Desktop/KUL/online publishing/BLOG/gemfile folder.png)
+![gemfile folder](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwra894j317y0eugml.jpg)
 
 Update the `Gemfile` so that it looks like this:
 
@@ -162,11 +162,11 @@ group :jekyll_plugins do
 end
 ```
 
-![gemfile](/Users/mac/Desktop/KUL/online publishing/BLOG/gemfile.png)
+![gemfile](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwuspoaj31020n0q6c.jpg)
 
 Save the file, then run `bundle install`.
 
-![bundle install](/Users/mac/Desktop/KUL/online publishing/BLOG/bundle install.png)
+![bundle install](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwyjd9gj60yi0u0dkf02.jpg)
 
 Open the `Gemfile.lock`, and look towards the bottom in the `PLATFORMS` section. If `ruby` is not listed, add it with this command:
 
@@ -174,19 +174,19 @@ Open the `Gemfile.lock`, and look towards the bottom in the `PLATFORMS` section.
 bundle lock --add-platform ruby
 ```
 
-![add platform ruby](/Users/mac/Desktop/KUL/online publishing/BLOG/add platform ruby.png)
+![add platform ruby.jepg](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwvosd1j30ve052jsd.jpg)
 
-![gemfile lock folder](/Users/mac/Desktop/KUL/online publishing/BLOG/gemfile lock folder.png)
+![gemfile lock folder](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwt58w3j31l20owwk2.jpg)
 
-![gemfile lock](/Users/mac/Desktop/KUL/online publishing/BLOG/gemfile lock.png)
+![gemfile lock](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwrpoi0j317y0eugml.jpg)
 
 Now we are able to locate the file of our Jekyll site
 
-![locating the jekyll site](/Users/mac/Desktop/KUL/online publishing/BLOG/locating the jekyll site.png)
+![locating the jekyll site](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwzgrehj611q0nu41n02.jpg)
 
 When we open it, it looks like this.
 
-![initial Jekyll site](/Users/mac/Desktop/KUL/online publishing/BLOG/initial Jekyll site.png)
+![initial Jekyll site](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcwwpglvj31jt0u0tcv.jpg)
 
 To test that the `jekyll-timeago` plugin works, we'll update our `index.markdown`to make use of it:
 
@@ -206,7 +206,7 @@ Testing the timeago plugin on GitHub Pages
 - With timeago filter - {{ date | timeago }}
 ```
 
-![index markdown folder](/Users/mac/Desktop/KUL/online publishing/BLOG/index markdown folder.png)
+![index markdown folder.jepg](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcx0esejj317q0agdgo.jpg)
 
-![index markdown](/Users/mac/Desktop/KUL/online publishing/BLOG/index markdown.png)
+![index markdown](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcww6o0jj30zi0jkta5.jpg)
 

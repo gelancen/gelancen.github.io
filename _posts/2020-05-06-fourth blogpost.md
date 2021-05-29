@@ -9,59 +9,61 @@ tags: jekyll
 
 Run  `ssh-keygen`
 
-![ssh-keygen](/Users/mac/Desktop/KUL/online publishing/BLOG/ssh-keygen.jpeg)
+![ssh-keygen](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv60nyzj30qw05k0ts.jpg)
 
 
 
-Run `cat ~/.ssh/id_rsa.pub`![cat ~:.ssh:id_rsa.pub](/Users/mac/Desktop/KUL/online publishing/BLOG/cat ~:.ssh:id_rsa.pub.jpeg)
+Run `cat ~/.ssh/id_rsa.pub`
+
+![cat ~:.ssh:id_rsa.pub](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuztzapj30vm0kogpi.jpg)
 
 
 
 Open the settings in our github page
 
-![setting](/Users/mac/Desktop/KUL/online publishing/BLOG/setting.jpg)
+![setting](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcurjkcqj306t0ciq34.jpg)
 
 Click SSH and GPG keys
 
-![SSH](/Users/mac/Desktop/KUL/online publishing/BLOG/SSH.png)
+![SSH](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuvp39aj30790iwjs3.jpg)
 
-![New ssh](/Users/mac/Desktop/KUL/online publishing/BLOG/New ssh.png)
+![New ssh](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv5hiwvj30lo04hq35.jpg)
 
 Paste the SSH keys
 
-![add new ssh](/Users/mac/Desktop/KUL/online publishing/BLOG/add new ssh.png)
+![add new ssh](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuxitslj30pv0d0mxt.jpg)
 
-![add new ssh](/Users/mac/Desktop/KUL/online publishing/BLOG/add new ssh.png)
+![add new ssh](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuryr4aj306t0ciq34.jpg)
 
 Open the terminal in our github folder and run $ git branch
 
-![git branch](/Users/mac/Desktop/KUL/online publishing/BLOG/git branch.jpeg)
+![git branch](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcusxa2fj30q805wq3u.jpg)
 
 
 
 Run  `cd ../ ; mkdir temp; cd temp; git clone git@github.com:gelancen/gelancen.github.io.git`
 
-![git clone](/Users/mac/Desktop/KUL/online publishing/BLOG/git clone.jpeg)
+![git clone](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv1pwt2j30vo09m76k.jpg)
 
-![yes](/Users/mac/Desktop/KUL/online publishing/BLOG/yes.jpeg)
+![yes](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuyiuk4j30vm06edhe.jpg)
 
 
 
 Run  `ssh-keygen`
 
-![ssh-keygen1](/Users/mac/Desktop/KUL/online publishing/BLOG/ssh-keygen1.jpeg)
+![ssh-keygen1](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcurz3mnj30w405mq47.jpg)
 
 
 
 Run `cd gelancen.github.io`
 
-![cd gelancen.github.io](/Users/mac/Desktop/KUL/online publishing/BLOG/cd gelancen.github.io.jpeg)
+![cd gelancen.github.io](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcutrue9j30u005sab5.jpg)
 
 
 
 Run `cd git branch`
 
-![git branch1](/Users/mac/Desktop/KUL/online publishing/BLOG/git branch1.jpeg)
+![git branch1](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuwnhauj60u405w0ts02.jpg)
 
 
 
@@ -71,23 +73,23 @@ Run `jekyll serve`
 
 Run `git status`
 
-![git status](/Users/mac/Desktop/KUL/online publishing/BLOG/git status.jpeg)
+![git status](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv3qi9sj30so0jytbl.jpg)
 
 
 
 Run  `git add -u; git commit -m "init"`
 
-![git add -u; git commit -m "init"](/Users/mac/Desktop/KUL/online publishing/BLOG/git add -u; git commit -m "init".jpeg)
+![git add -u; git commit -m "init"](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcuuxi65j30vu0hwq6l.jpg)
 
 
 
 Run  `git push`
 
-![git push1](/Users/mac/Desktop/KUL/online publishing/BLOG/git push1.jpeg)
+![git push1](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv2xz1pj30vi0kqaeg.jpg)
 
 Now the push is done and the page can be accessed through this url
 
  https://gelancen.github.io
 
-![homepage](/Users/mac/Desktop/KUL/online publishing/BLOG/homepage.png)Every time we update content for the blog posts by using markdown, we need to run  `git add . ; git commit -m "update"; git push` to push. 
+![homepage](https://tva1.sinaimg.cn/large/008i3skNgy1gqzcv4iomxj31bu0u0jsv.jpg)Every time we update content for the blog posts by using markdown, we need to run  `git add . ; git commit -m "update"; git push` to push. 
 
